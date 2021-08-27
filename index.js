@@ -1,5 +1,6 @@
 import Express, { request, response } from 'express';
 import axios from 'axios';
+import { RedisClient } from 'redis';
 
 const app = new Express();
 
